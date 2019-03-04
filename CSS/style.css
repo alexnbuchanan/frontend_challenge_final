@@ -1,0 +1,141 @@
+
+@font-face {
+  font-family: "SF Display Bold";
+  font-weight: 700;
+  src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
+}
+
+@font-face {
+  font-family: "SF Display Medium";
+  font-weight: 500;
+  src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+}
+
+@font-face {
+  font-family: "SF Display Regular";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: "SF Display Semibold";
+  font-weight: 600;
+  src: url("https://sf.abarba.me/SF-UI-Display-Semibold.otf");
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #262626;
+}
+
+.screen{
+  background: #FFFFFF;
+  width: 375px;
+  height: 1280px;
+  border-radius: 50px;
+  margin: 0 auto;
+
+}
+
+.second-header{
+  width: 375px;
+  height: 40.5px;
+  background: #FFFFFF;
+  display: grid;
+  grid-template-columns: 33% 67%;
+}
+
+.second-header-first-column{
+  background-color: #FFFFFF;
+  margin-top: 7.5px;
+  font-size: 17px;
+  font-family: SF Display Regular, helvetica;
+  font-weight: bold;
+  color: rgb(0, 122, 255);
+}
+
+.backarrow{
+  width:12.5px;
+  height: auto;
+  float: left;
+  margin-right: 2px;
+  margin-left: 7px;
+}
+
+.second-header-second-column{
+  background-color: #FFFFFF;
+  height: 40.5px;
+  margin-top: 0px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Sf Display Semibold, helvetica;
+}
+
+.search-bar{
+  width:375px;
+  height: 46px;
+  background-color: #FFFFFF;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.search-input{
+  width:359px;
+  height: 36px;
+  background-color: rgb(235, 235, 236);
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.fa-search{
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: SF Display Regular, helvetica;
+  color: #8E8E93;
+}
+
+.map-column{
+  background-color: orange;
+  height: 367px;
+  width: 374px;
+}
+
+.map{
+  height: 367px;
+  width: 374px;
+}
+
+.banner-header{
+  height: 40px;
+  width: 375px;
+  background-color: #DBE5FF;
+  margin: 0px;
+  padding-top: 1px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 10px;
+  font-size: 15px;
+  font-family: SF Display Medium, helvetica;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: 75px 150px 150px;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.content div:nth-child(-n+3){
+  font-family: SF Display Regular;
+  color: #8A8A8F;
+}
+
+.content div{
+  padding:2.5px;
+  text-align: center;
+  line-height: 30px;
+  font-family: SF Display Bold, helvetica;
+  font-size: 14px;
+  border-bottom: .01px solid #C8C7CC;
+}
