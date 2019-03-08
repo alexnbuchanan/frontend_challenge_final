@@ -23,6 +23,7 @@
   src: url("https://sf.abarba.me/SF-UI-Display-Semibold.otf");
 }
 
+
 body{
   margin: 0;
   padding: 0;
@@ -106,36 +107,87 @@ body{
   width: 374px;
 }
 
+h4{
+    margin: 0px;
+    padding-top: 1px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 37px;
+    font-size: 15px;
+    font-family: SF Display Medium, helvetica;
+}
+
 .banner-header{
   height: 40px;
   width: 375px;
   background-color: #DBE5FF;
-  margin: 0px;
-  padding-top: 1px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 10px;
-  font-size: 15px;
-  font-family: SF Display Medium, helvetica;
+
 }
 
-.content{
-  display: grid;
-  grid-template-columns: 75px 150px 150px;
-  max-width: 375px;
-  margin: 0 auto;
+.container-1 {
+  display: flex;
+  width: 375px;
+
 }
 
-.content div:nth-child(-n+3){
-  font-family: SF Display Regular;
-  color: #8A8A8F;
+
+.box-1{
+  margin-top: 0;
+  width: 60px;
+  background-color: green;
 }
 
-.content div{
-  padding:2.5px;
-  text-align: center;
-  line-height: 30px;
-  font-family: SF Display Bold, helvetica;
-  font-size: 14px;
-  border-bottom: .01px solid #C8C7CC;
+.box-2{
+
+  width: 157.5px;
 }
+
+.box-3{
+
+  width: 157.5px;
+  text-align: right;
+  background-color: yellow;
+}
+
+.box-1 h3{
+  margin-left: 10px;
+}
+
+.box-1 p{
+  margin-left: 10px;
+}
+
+.box-2 h3{
+  margin-left: 10px;
+}
+
+.box-2 p{
+  margin-left: 10px;
+}
+
+.box-3 h3{
+  margin-right: 10px;
+}
+
+.box-3 p{
+  margin-left: 10px;
+}
+
+
+.frequency{
+color: red;
+margin:
+}
+
+h3{
+  font-family: SF Display Regular, helvetica;
+  line-height: 3px;
+}
+
+p{
+  font-family: SF Display Regular, helvetica;
+  line-height: 20px;
+  margin-top: 10px;
+
+}
+cd ..
