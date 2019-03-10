@@ -33,7 +33,7 @@ body{
 .screen{
   background: #FFFFFF;
   width: 375px;
-  height: 1280px;
+  height: 1450px;
   border-radius: 50px;
   margin: 0 auto;
 
@@ -107,7 +107,7 @@ body{
   width: 374px;
 }
 
-h4{
+h5{
     margin: 0px;
     padding-top: 1px;
     text-align: center;
@@ -117,6 +117,11 @@ h4{
     font-family: SF Display Medium, helvetica;
 }
 
+h4{
+  font-family: SF Display Regular, helvetica;
+  font-size: 17px;
+}
+
 .banner-header{
   height: 40px;
   width: 375px;
@@ -124,70 +129,111 @@ h4{
 
 }
 
+.container-title {
+  display: flex;
+  width: 375px;
+  border-bottom: .01px solid #C8C7CC;
+  height: 40px;
+}
+
 .container-1 {
   display: flex;
   width: 375px;
+  border-bottom: .01px solid #C8C7CC;
+}
+
+.container-2 {
+  display: flex;
+  width: 375px;
+ border-bottom: .01px solid #C8C7CC;
+}
+
+.container-3 {
+  display: flex;
+  width: 375px;
+
 
 }
 
-
 .box-1{
-  margin-top: 0;
+
   width: 60px;
-  background-color: green;
+  height: 50px;
+  margin-top: 6px;
 }
 
 .box-2{
-
-  width: 157.5px;
+  width: 180px;
+  height: 50px;
+  margin-top: 6px;
 }
 
 .box-3{
-
-  width: 157.5px;
+  width: 135px;
   text-align: right;
-  background-color: yellow;
+  height: 50px;
+  margin-top: 6px;
+}
+
+.box-1 h4{
+margin-left: 15px;
+margin-top:10px;
+}
+
+.box-2 h4{
+margin-left: 15px;
+margin-top:10px;
+}
+
+.box-3 h4{
+margin-right: 20px;
+margin-top:10px;
 }
 
 .box-1 h3{
-  margin-left: 10px;
-}
+margin-left: 15px;
+margin-top: 2px;
 
-.box-1 p{
-  margin-left: 10px;
 }
 
 .box-2 h3{
-  margin-left: 10px;
-}
+margin-left: 15px;
+margin-top: 2px;
 
-.box-2 p{
-  margin-left: 10px;
 }
 
 .box-3 h3{
-  margin-right: 10px;
+margin-right: 20px;
+margin-top: 2px;
+
 }
 
-.box-3 p{
-  margin-left: 10px;
+.time{
+  margin-bottom: 10px;
 }
-
 
 .frequency{
-color: red;
-margin:
+font-size: 12px;
+line-height: .001px;
+color:#8A8A8F;
+font-weight: 400;
 }
 
 h3{
-  font-family: SF Display Regular, helvetica;
-  line-height: 3px;
-}
-
-p{
-  font-family: SF Display Regular, helvetica;
-  line-height: 20px;
-  margin-top: 10px;
+font-family: SF Display Regular, helvetica;
+font-size: 17px;
 
 }
-cd ..
+
+.header{
+color:#8A8A8F;
+font-weight: 400;
+}
+
+/*
+.frontarrow{
+width:10px;
+float: right;
+margin-top: -30px;
+}
+*/
