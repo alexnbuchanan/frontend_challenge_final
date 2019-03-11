@@ -132,20 +132,20 @@ h4{
 .container-title {
   display: flex;
   width: 375px;
-  border-bottom: .01px solid #C8C7CC;
+  border-bottom: 1px solid #C8C7CC;
   height: 40px;
 }
 
 .container-1 {
   display: flex;
   width: 375px;
-  border-bottom: .01px solid #C8C7CC;
+  border-bottom: 1px solid #C8C7CC;
 }
 
 .container-2 {
   display: flex;
   width: 375px;
- border-bottom: .01px solid #C8C7CC;
+ border-bottom: 1px solid #C8C7CC;
 }
 
 .container-3 {
